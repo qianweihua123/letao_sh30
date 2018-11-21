@@ -130,3 +130,10 @@ background-color: #5B99CB;
 .mt_20{
     margin-top: 20px;
 }
+
+.echarts_left,
+.echarts_right{
+    width: 48%;
+    height: 400px;
+    background-color: skyblue;
+}
