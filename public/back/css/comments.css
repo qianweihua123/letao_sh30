@@ -1,5 +1,11 @@
-body{
+.bd{
     background-color: #222D32;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 .panel-title{
     height: 40px;
@@ -9,4 +15,101 @@ body{
 
 .mr_t{
     margin-top: 90px;
+}
+
+.lt_aside{
+    width: 180px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #222D32;
+    z-index: 999;
+
+}
+
+.lt_aside .brand {
+height: 50px;
+line-height: 50px;
+text-align: center;
+background-color: #5B99CB;
+
+}
+
+.lt_aside .brand a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+}
+
+.lt_aside .user{
+    padding-top: 30px;
+    height: 180px;
+}
+
+.lt_aside img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.lt_aside p{
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.lt_aside ul{
+    list-style: none;
+}
+
+.lt_aside ul li a{
+    display: block;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    border-right: 3px solid transparent;
+    padding-left: 40px;
+}
+.lt_aside ul li .child a{
+    display: none;
+    padding-left: 60px;
+}
+
+.main{
+    width: 100%;
+    height: 1000px;
+    background-color: pink;
+    padding-left: 180px;
+    padding-top: 50px;
+}
+
+.main .top_bar{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3C8DBC;
+    padding-left: 180px;
+
+}
+
+.main .top_bar .icon_left,
+.main .top_bar .icon_right{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.mt_20{
+    margin-top: 20px;
 }
