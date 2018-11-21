@@ -2,6 +2,9 @@
     background-color: #222D32;
 }
 
+.red{
+    color: #A94442;
+}
 ul{
     padding: 0;
     margin: 0;
@@ -25,7 +28,11 @@ ul{
     left: 0;
     background-color: #222D32;
     z-index: 999;
+    transition: all 1s;
+}
 
+.lt_aside.hidemenu{
+    left:-180px;
 }
 
 .lt_aside .brand {
@@ -76,8 +83,11 @@ background-color: #5B99CB;
     border-right: 3px solid transparent;
     padding-left: 40px;
 }
-.lt_aside ul li .child a{
+.lt_aside ul li .child{
     display: none;
+}
+.lt_aside ul li .child a{
+    
     padding-left: 60px;
 }
 
@@ -87,6 +97,11 @@ background-color: #5B99CB;
     background-color: pink;
     padding-left: 180px;
     padding-top: 50px;
+    transition: all 1s;
+}
+
+.main.hidemenu{
+    padding-left: 0;
 }
 
 .main .top_bar{
@@ -97,9 +112,11 @@ background-color: #5B99CB;
     left: 0;
     background-color: #3C8DBC;
     padding-left: 180px;
-
+    transition: all 1s;
 }
-
+.main .top_bar.hidemenu{
+    padding-left: 0;  
+}
 .main .top_bar .icon_left,
 .main .top_bar .icon_right{
     width: 50px;
