@@ -122,7 +122,7 @@ $(function() {
 
     }
   });
-
+0
 
   // 5. 配置表单校验
   $('#form').bootstrapValidator({
